@@ -49,7 +49,7 @@ class SubmitButton extends StatelessWidget {
     if (isSuccess) {
       ScaffoldMessenger.of(context).showSnackBar(
         _toastBar(
-          message: "Registered successfully!",
+          message: "Nurse Requested successfully!",
           isError: false,
           icon: Icons.check_circle,
         ),
